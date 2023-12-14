@@ -62,10 +62,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
-    os.environ.get('ALLOWED_HOST'),
-    'localhost',
-]
-
+    'react-drf-api-thingy-6f5b1736a050.herokuapp.com',
+    '8000-jindah-drfapi-9bil9dorslu.ws-eu106.gitpod.io',
+    ]
 if 'CLIENT_ORIGIN' in os.environ:
     CORS_ALLOWED_ORIGINS = [
         os.environ.get('CLIENT_ORIGIN')
