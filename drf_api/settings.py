@@ -62,7 +62,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'react-drf-api-thingy-6f5b1736a050.herokuapp.com',
+    'drfapinew-d3d8cbc7f33b.herokuapp.com',
     '8000-jindah-drfapi-9bil9dorslu.ws-eu106.gitpod.io',
     ]
 
