@@ -167,6 +167,13 @@ DATABASES = {
     ))
 }
 
+# Print a message indicating the connected database
+if 'DEV' in os.environ:
+    print("Connected to development database (SQLite)")
+else:
+    print("Connected to production database")
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
